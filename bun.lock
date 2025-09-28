@@ -2,7 +2,7 @@
   "lockfileVersion": 1,
   "workspaces": {
     "": {
-      "name": "astro-theme-pure",
+      "name": "miss-kreyn",
       "dependencies": {
         "@astrojs/check": "^0.9.4",
         "@astrojs/rss": "^4.0.12",
