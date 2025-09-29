@@ -7,7 +7,7 @@ import { getBlogCollection, sortMDByDate } from 'astro-pure/server'
 import { Button, Card, Icon, Label } from 'astro-pure/user'
 import PageLayout from '@/layouts/BaseLayout.astro'
 import Section from '@/components/home/Section.astro'
-import avatar from '@/assets/avatar.png'
+import avatar from '@/assets/profile.webp'
 import config from '@/site-config'
 const MAX_POSTS = 10
 const allPosts = await getBlogCollection()
@@ -20,7 +20,7 @@ const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS)
       <Image
         src={avatar}
         alt='profile'
-        class='h-28 w-auto rounded-full border p-1'
+        class='h-80 w-auto rounded-full border p-1'
         loading='eager'
       />
 
