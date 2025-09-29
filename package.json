@@ -21,6 +21,8 @@
     "@astrojs/check": "^0.9.4",
     "@astrojs/rss": "^4.0.12",
     "@astrojs/vercel": "^8.2.2",
+    "@fontsource-variable/arima": "^5.2.8",
+    "@fontsource-variable/quicksand": "^5.2.10",
     "@playform/compress": "^0.2.0",
     "@waline/client": "^3.6.0",
     "astro": "^5.12.0",

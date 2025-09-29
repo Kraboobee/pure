@@ -7,6 +7,8 @@
         "@astrojs/check": "^0.9.4",
         "@astrojs/rss": "^4.0.12",
         "@astrojs/vercel": "^8.2.2",
+        "@fontsource-variable/arima": "^5.2.8",
+        "@fontsource-variable/quicksand": "^5.2.10",
         "@playform/compress": "^0.2.0",
         "@waline/client": "^3.6.0",
         "astro": "^5.12.0",
@@ -165,6 +167,10 @@
     "@eslint/object-schema": ["@eslint/object-schema@2.1.6", "https://registry.npmmirror.com/@eslint/object-schema/-/object-schema-2.1.6.tgz", {}, "sha512-RBMg5FRL0I0gs51M/guSAj5/e14VQ4tpZnQNWwuDT66P14I43ItmPfIZRhO9fUVIPOAQXU47atlywZ/czoqFPA=="],
 
     "@eslint/plugin-kit": ["@eslint/plugin-kit@0.3.3", "https://registry.npmmirror.com/@eslint/plugin-kit/-/plugin-kit-0.3.3.tgz", { "dependencies": { "@eslint/core": "^0.15.1", "levn": "^0.4.1" } }, "sha512-1+WqvgNMhmlAambTvT3KPtCl/Ibr68VldY2XY40SL1CE0ZXiakFR/cbTspaF5HsnpDMvcYYoJHfl4980NBjGag=="],
+
+    "@fontsource-variable/arima": ["@fontsource-variable/arima@5.2.8", "", {}, "sha512-Qbvrn4kSfsUoWsZY0kfWHZx6P5y4nuA0+EQnFGFwOCHLS5Vf2zWjlXyJLQuykxlPkk4NhPBMXN7WzzMen+hi+A=="],
+
+    "@fontsource-variable/quicksand": ["@fontsource-variable/quicksand@5.2.10", "", {}, "sha512-1uzkzGDwWgtFnxquAXuD7fZV9wHkALb49UPzRXxGTVeeLsNrGnIU0O/pcz6m1U7RDtpHz2qx77JhCpKaq7FrUg=="],
 
     "@humanfs/core": ["@humanfs/core@0.19.1", "https://registry.npmmirror.com/@humanfs/core/-/core-0.19.1.tgz", {}, "sha512-5DyQ4+1JEUzejeK1JGICcideyfUbGixgS9jNgex5nqkW+cY7WZhxBigmieN5Qnw9ZosSNVC9KQKyb+GUaGyKUA=="],
 

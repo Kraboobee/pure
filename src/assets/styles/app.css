@@ -12,7 +12,10 @@
   font-display: swap;
 }
 html {
-  font-family: 'Satoshi', sans-serif;
+  font-family: 'Quicksand Variable', sans-serif;
+  & h1, h2 {
+    font-family: 'Arima Variable', sans-serif;
+  }
 }
 
 /* Theme */
