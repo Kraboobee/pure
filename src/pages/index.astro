@@ -9,6 +9,7 @@ import PageLayout from '@/layouts/BaseLayout.astro'
 import Section from '@/components/home/Section.astro'
 import avatar from '@/assets/profile.webp'
 import config from '@/site-config'
+
 const MAX_POSTS = 10
 const allPosts = await getBlogCollection()
 const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS)
@@ -37,7 +38,9 @@ const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS)
     <div id='content' class='animate flex flex-col gap-y-10 md:w-4/5 lg:w-5/6'>
       <Section title='About'>
         <p class='text-muted-foreground'>
-          Kirstin Kleyn is a multitalented creator from Cape Town South Africa. After graduating from Stellenbosch University with a BMus, she developed her hobbies of cardmaking and scrapbooking.
+          Kirstin Kleyn is a multitalented creator from Cape Town South Africa. After graduating
+          from Stellenbosch University with a BMus, she developed her hobbies of cardmaking and
+          scrapbooking.
         </p>
         <Button title='More about me' class='w-fit self-end' href='/about' variant='ahead' />
       </Section>
@@ -55,8 +58,7 @@ const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS)
           </Section>
         )
       }
-
     </div>
-    <Quote class='mt-12' />
+    <!-- <Quote class='mt-12' /> -->
   </main>
 </PageLayout>
