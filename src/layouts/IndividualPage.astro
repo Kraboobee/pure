@@ -19,7 +19,7 @@ type Props = MarkdownLayoutProps<{
 
 const { frontmatter, headings } = Astro.props
 const { title, description, heroImage, language, back } = frontmatter
-const socialImage = heroImage?.src ?? '/images/logo.png'
+const socialImage = heroImage?.src ?? '/images/banner.png'
 ---
 
 <PageLayout meta={{ title, description, ogImage: socialImage }}>
